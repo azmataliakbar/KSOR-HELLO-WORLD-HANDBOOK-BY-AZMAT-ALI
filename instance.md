@@ -24,7 +24,7 @@ database:
 # Both go into /.well-known/mcp/server.json, the document an agent reads to
 # DISCOVER this record instead of being told the URL. Leave mcp_url out until
 # the server is actually published: an invented URL is worse than none.
-# mcp_url: https://records.example.com/mcp
+mcp_url: https://ksor-handbook-mcp.onrender.com/mcp
 # version: 0.1.0
 ---
 
