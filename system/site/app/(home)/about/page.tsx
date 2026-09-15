@@ -45,7 +45,7 @@ export default function AboutPage() {
 
               <CardContent className="space-y-5 px-0 pt-7 text-[0.9375rem] leading-7 text-fd-muted-foreground sm:text-base">
                 <p>
-                  <span className="font-medium text-fd-foreground">Author:</span> Azmat Ali
+                  <span className="font-medium text-fd-foreground">App Built By:</span> Azmat Ali
                 </p>
                 <p className="text-pretty">
                   This project demonstrates governed knowledge, human approval, and AI-assisted
@@ -53,11 +53,14 @@ export default function AboutPage() {
                 </p>
               </CardContent>
 
-              <CardFooter className="mt-8 border-t border-fd-border px-0 pt-5">
-                <p className="font-mono text-xs tracking-[0.12em] text-fd-muted-foreground uppercase">
-                  Built with Codex and KSoR
-                </p>
-              </CardFooter>
+              <CardFooter className="mt-8 border-t border-fd-border px-0 pt-5 flex flex-col gap-2">
+  <p className="font-mono text-xs tracking-[0.12em] text-fd-muted-foreground uppercase">
+    Built with Codex and KSoR
+  </p>
+  <p className="font-mono text-xs tracking-[0.12em] text-fd-muted-foreground uppercase">
+    Author : Sir.Zia, Sir.Junaid, Maa'm. Wania
+  </p>
+</CardFooter>
             </div>
           </div>
         </Card>
