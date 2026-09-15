@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "build_id": "sha256:e1fcb19213427b1f46efe1e35df7f88a3231d65f147356c1f8854ff0e2977fe0",
+  "build_id": "sha256:80cc754d8447020dc01cc86c7c6909659e767f2185af0c69d7b5c8cf1f159233",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
@@ -8,8 +8,8 @@
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
   "source_commit": "bbdba5861f5d4253bcbfee0edcdef8a0a6d3c8c4",
-  "dirty": false,
-  "as_of": "2026-09-15T19:17:14.349Z",
+  "dirty": true,
+  "as_of": "2026-09-15T20:50:14.926Z",
   "drafts": "hidden",
   "instance_sha256": "8280b36fc675403b512667d3dd7becd0060f05fe681e8a0adbb71816f6f87d5f",
   "policy_sha256": "384f6c196502e5ac26ab53e88905b1da39e99c488ab32c8ebe9f05a532f06707",
@@ -27,7 +27,7 @@
   "documents": [
     {
       "path": "about-ksor-handbook.md",
-      "sha256": "1af7d99929681b24c1900be6e1e49cfd5fde92bc5bd6ead260bd55c3686ec531",
+      "sha256": "4ad6100607ca48622263a231625c4d8fb7ae93df4f30ee29bae409355904c77e",
       "status": "stable",
       "audience": [
         "public"
@@ -123,7 +123,7 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "5493a234c2d11bf3149f73ca9e0929b17fe6b57f40b25be033d612818c52ca81",
+      "sha256": "5c1c29caf85abe908ba5a1d6af9609248e02a976520086b490834636dea8bda9",
       "files": 10
     }
   ]
