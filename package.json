@@ -16,7 +16,8 @@
     "ingest": "ksor ingest --instance instance.md --flip",
     "gc": "ksor gc --instance instance.md",
     "postinstall": "node system/patches/apply-ksor-cors.mjs",
-    "test:cors": "node --test system/patches/apply-ksor-cors.test.mjs"
+    "test:cors": "node --test system/patches/apply-ksor-cors.test.mjs",
+    "test:mcp-about": "node --test system/tests/about-mcp-search.test.mjs"
   },
   "dependencies": {
     "@panaversity/ksor": "0.0.60"

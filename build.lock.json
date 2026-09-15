@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "build_id": "sha256:80ecb487111870463153eaa9e0b6bc9eb5adca753432e9ff6edeb94696e3b28b",
+  "build_id": "sha256:e1fcb19213427b1f46efe1e35df7f88a3231d65f147356c1f8854ff0e2977fe0",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
@@ -8,8 +8,8 @@
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
   "source_commit": "8a7b16b3f552976155c70cca047532595bf28e71",
-  "dirty": false,
-  "as_of": "2026-09-15T10:45:08.561Z",
+  "dirty": true,
+  "as_of": "2026-09-15T19:12:58.236Z",
   "drafts": "hidden",
   "instance_sha256": "8280b36fc675403b512667d3dd7becd0060f05fe681e8a0adbb71816f6f87d5f",
   "policy_sha256": "384f6c196502e5ac26ab53e88905b1da39e99c488ab32c8ebe9f05a532f06707",
@@ -25,6 +25,17 @@
     }
   },
   "documents": [
+    {
+      "path": "about-ksor-handbook.md",
+      "sha256": "1af7d99929681b24c1900be6e1e49cfd5fde92bc5bd6ead260bd55c3686ec531",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
     {
       "path": "governance-ladder.md",
       "sha256": "c0dc26f31fcbb19128db8bd3e8aca068439814a784e889bf5c35827fc43479a0",
@@ -102,7 +113,7 @@
   "indexes": [
     {
       "path": "index.md",
-      "sha256": "50037171e631b68bfca653d044b516d9596582474c23a3b1866c1734d6638ee7"
+      "sha256": "72688ed6c4277986f51afcae8615895901a3b510dfcc12b03ce758d61b4c1560"
     },
     {
       "path": "surfaces/index.md",
@@ -112,8 +123,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "b9ec05cb085130039c18e9d879765d1342faa8d55851b13fb72da2cbce29004f",
-      "files": 9
+      "sha256": "5493a234c2d11bf3149f73ca9e0929b17fe6b57f40b25be033d612818c52ca81",
+      "files": 10
     }
   ]
 }
