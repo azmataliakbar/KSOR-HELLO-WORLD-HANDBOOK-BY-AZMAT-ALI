@@ -27,6 +27,8 @@
 !system
 system/*
 !system/gateways
+!system/patches
+!system/patches/apply-ksor-cors.mjs
 
 # Deliberately NOT here, and each for a reason:
 #   .env          configuration arrives from the environment at run time; a DSN
