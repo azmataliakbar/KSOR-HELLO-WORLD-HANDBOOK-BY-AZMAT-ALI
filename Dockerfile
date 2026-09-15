@@ -22,8 +22,10 @@ FROM node:24-alpine
 
 WORKDIR /app
 
-# Only the manifest first, so this layer caches until the ksor pin changes.
+# Only the manifest and the version-guarded KSoR transport patch first, so this
+# layer caches until either changes.
 COPY package.json ./
+COPY system/patches/apply-ksor-cors.mjs ./system/patches/apply-ksor-cors.mjs
 RUN npm install --omit=dev --no-audit --no-fund
 
 # The record's identity and configuration, and this door's own MCP registration.
